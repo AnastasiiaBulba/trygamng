@@ -204,12 +204,6 @@
 
 /* Responsive Design */
 @media (min-width: 768px) {
-  .contact-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--spacing-xl);
-  }
-
   .contact-details .contact-item {
     padding: var(--spacing-lg);
   }
