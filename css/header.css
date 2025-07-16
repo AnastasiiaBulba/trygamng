@@ -173,7 +173,7 @@
 }
 
 /* Responsive Design */
-@media (min-width: 768px) {
+@media (min-width: 1280px) {
   .burger-menu {
     display: none;
   }
@@ -182,12 +182,6 @@
     display: block;
   }
 
-  .header-content {
-    padding: var(--spacing-md) var(--spacing-lg);
-  }
-}
-
-@media (min-width: 1280px) {
   .header-content {
     padding: var(--spacing-md) var(--spacing-xl);
   }
