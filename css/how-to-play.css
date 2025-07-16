@@ -3,6 +3,31 @@
   background: linear-gradient(135deg, var(--light-gray) 0%, var(--white) 100%);
 }
 
+.how-to-play-content {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xl);
+  margin-top: var(--spacing-xl);
+}
+
+.how-to-play-image {
+  flex: 1;
+  max-width: 400px;
+}
+
+.how-to-play-image img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-lg);
+  transition: all var(--transition-normal);
+}
+
+.how-to-play-image img:hover {
+  transform: scale(1.05);
+  box-shadow: var(--shadow-xl);
+}
+
 .instructions-grid {
   display: flex;
   flex-direction: column;
@@ -104,6 +129,16 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .how-to-play-content {
+    flex-direction: column;
+    gap: var(--spacing-lg);
+  }
+
+  .how-to-play-image {
+    max-width: 100%;
+    order: -1;
+  }
+
   .instruction-step {
     flex-direction: column;
     text-align: center;
