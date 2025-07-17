@@ -123,7 +123,7 @@ function buildFooter() {
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; <span class="copyright-year">${currentYear}</span> <a href="http://trygamng.com">http://trygamng.com</a> - All rights reserved</p>
+                <p>&copy; <span class="copyright-year">${currentYear}</span> Trygamng.com - All rights reserved</p>
                 <div style="margin-top: var(--spacing-sm);">
                     <a href="./cookie-policy.html">Cookie Policy</a> | 
                     <a href="./privacy-policy.html">Privacy Policy</a>
