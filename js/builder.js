@@ -17,7 +17,7 @@ function buildHeader() {
                 <ul class="nav-list">
                     <li><a href="./" class="nav-link">Studio</a></li>
                     <li><a href="./battle-log.html" class="nav-link">Color Diaries</a></li>
-                    <li><a href="./hq-contacts.html" class="nav-link">Art Gallery</a></li>
+                    <li><a href="./hq-contacts.html" class="nav-link">Contact</a></li>
                     <li><a href="./offroad-disclaimer.html" class="nav-link">Painter's Guide</a></li>
                 </ul>
             </nav>
@@ -33,7 +33,7 @@ function buildHeader() {
             <ul class="mobile-nav-list">
                 <li><a href="./" class="mobile-nav-link">Studio</a></li>
                 <li><a href="./battle-log.html" class="mobile-nav-link">Color Diaries</a></li>
-                <li><a href="./hq-contacts.html" class="mobile-nav-link">Art Gallery</a></li>
+                <li><a href="./hq-contacts.html" class="mobile-nav-link">Contact</a></li>
                 <li><a href="./offroad-disclaimer.html" class="mobile-nav-link">Painter's Guide</a></li>
             </ul>
         </div>
@@ -98,7 +98,7 @@ function buildFooter() {
                     <ul>
                         <li><a href="./">Studio</a></li>
                         <li><a href="./battle-log.html">Color Diaries</a></li>
-                        <li><a href="./hq-contacts.html">Art Gallery</a></li>
+                        <li><a href="./hq-contacts.html">Contact</a></li>
                         <li><a href="./offroad-disclaimer.html">Painter's Guide</a></li>
                     </ul>
                 </div>
@@ -125,8 +125,8 @@ function buildFooter() {
             <div class="footer-bottom">
                 <p>&copy; <span class="copyright-year">${currentYear}</span> <a href="http://trygamng.com">http://trygamng.com</a> - All rights reserved</p>
                 <div style="margin-top: var(--spacing-sm);">
-                    <a href="./jeep-cookies.html">Cookie Policy</a> | 
-                    <a href="./jeep-privacy.html">Privacy Policy</a>
+                    <a href="./cookie-policy.html">Cookie Policy</a> | 
+                    <a href="./privacy-policy.html">Privacy Policy</a>
                 </div>
             </div>
         </div>
